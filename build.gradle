@@ -20,12 +20,12 @@ repositories {
 
 group = 'com.github.racc'
 archivesBaseName = "typesafeconfig-guice"
-version = '0.2.1'
+version = '0.2.2'
 
 dependencies {
     compileOnly group: 'com.typesafe', name: 'config', version: '1.4.0'
-    shadow group: 'io.github.classgraph', name: 'classgraph', version: '4.8.87'
-    shadow group: 'org.reflections', name: 'reflections', version: '0.9.12'
+    shade group: 'io.github.classgraph', name: 'classgraph', version: '4.8.87'
+    shade group: 'org.reflections', name: 'reflections', version: '0.9.12'
     compileOnly group: 'com.google.inject', name: 'guice', version: '4.2.3'
 
     testImplementation 'junit:junit:4.13'
