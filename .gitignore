@@ -3,9 +3,6 @@
 **/build/
 !src/**/build/
 gradle-app.setting
-gradle-wrapper.jar
-gradlew
-gradlew.bat
 .gradletasknamecache
 !src/**/target/
 **/target/
